@@ -1,11 +1,7 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { markdownify } from "@lib/utils/textConverter";
-import shortcodes from "@shortcodes/all";
-import { MDXRemote } from "next-mdx-remote";
-import Image from "next/image";
-import Base from "@layouts/Baseof";
+import React from 'react';
 import { FaInfoCircle } from 'react-icons/fa';
+import { markdownify } from '@lib/utils/textConverter';
+import Base from '@layouts/Baseof';
 const Arquitectura = ({
 
 }) => {
